@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>Fobcouver</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header text-center">
+			<img src="Maple_Leaf.png" width="100">
+			<h1>Fobcouver</h1>
+			<h3>Simple. Quick. Trusted.</h3>
+			<h4>We copy key fobs.</h4>
+		</div>
+		<div class="info" class="col-md-12">
+			<div class="prices col-md-6 text-center">
+				<h3>Pricing</h3>
+				<h4>$60/fob + $30 after</h4>
+				<h4>$70/remote + $40 after</h4>
+			</div>
+			<div class="footer col-md-6 text-center">
+				<h3>Contact</h3>
+				<h4>(555) 555 5555 </h4>
+				<h4>Vancouver BC</h4>
+			</div>
+		</div>
+		<div class="contact col-md-6 col-md-offset-3" style="padding-top:20px">
+			<form name="contact_form" method="post" action="email.php">
+				<div class="form-group">
+					<input type="text" class="form-control" name="name" id="name" placeholder="Name"><br>
+					<input type="text" class="form-control" name="email" id="email" placeholder="Email"><br>
+					<input type="text" class="form-control" name="phone" id="phone" placeholder="Phone"><br>
+					<input type="text" class="form-control" name="city" id="city" placeholder="City"><br>
+
+					<p class="help-block">Please upload clear images of both sides of your card.</p>
+					<label for="card_front">Front of card</label>
+					<input type="file" id="card_front">
+					<label for="card_back">Back of card</label>
+					<input type="file" id="card_back">
+				</div>
+				<button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		</div>
+	</div>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</body>
+</html>
