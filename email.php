@@ -15,12 +15,12 @@ if(isset($_POST['email'])) {
       died('We are sorry, but there appears to be a problem with the form you submitted.');       
   }
 
-    $first_name = $_POST['first_name']; // required
-    $last_name = $_POST['last_name']; // required
-    $email_from = $_POST['email']; // required
-    $telephone = $_POST['phone']; // not required
-    $front = $_POST['front']; // required
-    $back = $_POST['back']; // required
+    $first_name = $_POST['first_name']; 
+    $last_name = $_POST['last_name']; 
+    $email_from = $_POST['email']; 
+    $telephone = $_POST['phone']; 
+    $front = $_POST['front']; 
+    $back = $_POST['back'];
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
 
